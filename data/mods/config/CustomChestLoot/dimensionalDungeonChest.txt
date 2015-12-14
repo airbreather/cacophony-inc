@@ -1,0 +1,2 @@
+count=0-0
+contents=MineFactoryReloaded:safarinet.jailer;0;1-1;15,MineFactoryReloaded:rubberwood.sapling;0;1-8;70,MineFactoryReloaded:pinkslime;0;1-1;1,,HardcoreQuesting:bags;0;1-2;20,HardcoreQuesting:bags;1;1-2;15,HardcoreQuesting:bags;2;1-1;10,HardcoreQuesting:bags;3;1-1;2
