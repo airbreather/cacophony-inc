@@ -2,7 +2,7 @@
 # Created by Ruins mod version 14.7 Ingame Parser
 # authoring Player: skidznet
 
-weight=1
+weight=2
 embed_into_distance=1
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava

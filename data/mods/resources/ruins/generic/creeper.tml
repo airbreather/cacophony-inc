@@ -1,12 +1,12 @@
 
-# Created by Ruins mod version 14.7 Ingame Parser
+# Created by Ruins mod version 15.3 Ingame Parser
 # authoring Player: skidznet
 
 weight=1
 embed_into_distance=0
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
-dimensions=4,3,1
+dimensions=4,3,3
 allowable_overhang=0
 max_leveling=2
 leveling_buffer=0
@@ -14,28 +14,30 @@ preserve_water=0
 preserve_lava=0
 
 rule1=0,100,ExtraUtilities:color_stonebrick-5
+rule2=2,100,minecraft:stone_button-4
+rule3=2,100,minecraft:stone_button-3
 
 layer
-1
-0
-1
+0,1,0
+0,0,0
+0,1,0
 endlayer
 
 layer
-0
-1
-0
+0,0,0
+0,1,0
+0,0,0
 endlayer
 
 layer
-0
-1
-0
+0,0,0
+0,1,0
+0,0,0
 endlayer
 
 layer
-0
-1
-0
+0,0,0
+3,1,2
+0,0,0
 endlayer
 

@@ -3,32 +3,50 @@
 # authoring Player: skidznet
 
 weight=1
-embed_into_distance=3
+embed_into_distance=1
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
-dimensions=2,5,5
+dimensions=8,1,1
 allowable_overhang=0
 max_leveling=2
 leveling_buffer=0
 preserve_water=0
 preserve_lava=0
 
-rule1=0,100,ExtraUtilities:spike_base_wood-1
-rule2=0,100,Artifacts:illusionary_block-0
+rule1=0,100,appliedenergistics2:tile.BlockSkyStone-0
+rule2=0,100,chisel:warningSign-5
+rule3=0,100,minecraft:tripwire-0
+rule4=0,100,minecraft:anvil-10
 
 layer
-0,0,0,0,0
-0,1,1,1,0
-0,1,1,1,0
-0,1,1,1,0
-0,0,0,0,0
+1
 endlayer
 
 layer
-0,0,0,0,0
-0,2,2,2,0
-0,2,2,2,0
-0,2,2,2,0
-0,0,0,0,0
+2
+endlayer
+
+layer
+0
+endlayer
+
+layer
+0
+endlayer
+
+layer
+0
+endlayer
+
+layer
+0
+endlayer
+
+layer
+3
+endlayer
+
+layer
+4
 endlayer
 

@@ -3,7 +3,7 @@
 # authoring Player: skidznet
 
 weight=1
-embed_into_distance=3
+embed_into_distance=2
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
 dimensions=2,5,5

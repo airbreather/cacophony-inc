@@ -1,12 +1,12 @@
 
-# Created by Ruins mod version 14.7 Ingame Parser
+# Created by Ruins mod version 15.3 Ingame Parser
 # authoring Player: skidznet
 
-weight=1
+weight=2
 embed_into_distance=0
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
-dimensions=4,4,1
+dimensions=4,4,3
 allowable_overhang=0
 max_leveling=2
 leveling_buffer=0
@@ -16,33 +16,35 @@ preserve_lava=0
 rule1=0,100,Forestry:fences-13
 rule2=0,100,minecraft:wool-8
 rule3=0,100,minecraft:wool-12
-rule4=0,100,TConstruct:trap.barricade.birch-13
+rule4=2,100,minecraft:stone_button-4
+rule5=2,100,minecraft:stone_button-3
+rule6=0,100,TConstruct:trap.barricade.birch-13
 
 layer
-0
-1
-0
-1
+0,0,0
+0,1,0
+0,0,0
+0,1,0
 endlayer
 
 layer
-0
-2
-3
-3
+0,0,0
+0,2,0
+0,3,0
+0,3,0
 endlayer
 
 layer
-3
-3
-3
-2
+5,3,4
+0,3,0
+0,3,0
+0,2,0
 endlayer
 
 layer
-4
-0
-0
-0
+0,6,0
+0,0,0
+0,0,0
+0,0,0
 endlayer
 

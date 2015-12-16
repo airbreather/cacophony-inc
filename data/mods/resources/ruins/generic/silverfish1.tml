@@ -1,25 +1,26 @@
 
-# Created by Ruins mod version 14.7 Ingame Parser
+# Created by Ruins mod version 15.3 Ingame Parser
 # authoring Player: skidznet
 
-weight=1
+weight=4
 embed_into_distance=1
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
-dimensions=1,5,5
+dimensions=1,4,4
 allowable_overhang=0
 max_leveling=2
 leveling_buffer=0
 preserve_water=0
 preserve_lava=0
 
-rule1=0,100,minecraft:monster_egg-0
+rule1=0,100,minecraft:iron_ore-0
+rule2=0,100,minecraft:monster_egg-0
+rule3=0,100,minecraft:gravel-0
 
 layer
-0,0,0,0,0
-0,1,1,0,0
-0,1,1,1,1
-0,1,1,1,1
-0,0,1,1,0
+2,2,1,1
+2,2,2,2
+2,3,2,2
+3,3,2,3
 endlayer
 
