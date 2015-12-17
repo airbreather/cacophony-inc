@@ -73,7 +73,7 @@ recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket
 recipes.removeShaped(<OpenBlocks:tank> * 2, [[<minecraft:obsidian:*> * 1, <minecraft:glass_pane:*> * 1, <minecraft:obsidian:*> * 1], [<minecraft:glass_pane:*> * 1, <minecraft:glass_pane:*> * 1, <minecraft:glass_pane:*> * 1], [<minecraft:obsidian:*> * 1, <minecraft:glass_pane:*> * 1, <minecraft:obsidian:*> * 1]]);
 recipes.addShaped(<OpenBlocks:tank> * 2, [[<minecraft:obsidian>, <ore:paneGlass>, <minecraft:obsidian>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [<minecraft:obsidian>, <ore:paneGlass>, <minecraft:obsidian>]]);
 
-furnace.addRecipe(<BiomesOPlenty:mud:1>, <minecraft:sand>);
+furnace.addRecipe(<minecraft:sand>, <BiomesOPlenty:mud:1>);
 
 mods.metallurgy.Crusher.addRecipe(<minecraft:lapis_ore>, <minecraft:dye:4> * 9);
 mods.metallurgy.Crusher.addRecipe(<minecraft:diamond_ore>, <minecraft:diamond> * 2);
