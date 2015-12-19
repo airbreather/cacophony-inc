@@ -1,29 +1,28 @@
 @echo off
+set VERSION=1.0.2
+
 cd %~dp0
 pushd data
-if exist mods\journey*.jar (
-	goto :rest
-) else (
+if not exist mods\journey*.jar (
 	popd
 	echo You forgot journey map
 	goto :eof
 )
 
-:rest
-7za a -r cacophony_inc-1.0.1.zip config hats mods scripts
+7za a -r cacophony_inc-%VERSION%.zip config hats mods scripts
 popd
-move data\cacophony_inc-1.0.1.zip .
+move data\cacophony_inc-%VERSION%.zip .
 
-copy cacophony_inc-1.0.1.zip cacophony_inc_nojourneymap-1.0.1.zip
-7za d cacophony_inc_nojourneymap-1.0.1.zip mods\journeymap*.jar
+copy cacophony_inc-%VERSION%.zip cacophony_inc_nojourneymap-%VERSION%.zip
+7za d cacophony_inc_nojourneymap-%VERSION%.zip mods\journeymap*.jar
 
 pushd server-skeleton
-7za x -r ..\cacophony_inc_nojourneymap-1.0.1.zip
+7za x -r ..\cacophony_inc_nojourneymap-%VERSION%.zip
 del mods\neiaddons-*.jar
 del mods\neiintegration-*.jar
 
-7za a -r cacophony_inc_server-1.0.1.zip *
+7za a -r cacophony_inc_server-%VERSION%.zip *
 del /s /q config hats mods scripts
 rd /s /q config hats mods scripts
 popd
-move server-skeleton\cacophony_inc_server-1.0.1.zip .
+move server-skeleton\cacophony_inc_server-%VERSION%.zip .
