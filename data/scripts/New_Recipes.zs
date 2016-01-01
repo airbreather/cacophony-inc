@@ -146,6 +146,8 @@ for thisPulpWoodItem in pulpWood.items {
     mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:chicken>, thisPulpWoodItem, <minecraft:cooked_chicken>, <Thaumcraft:ItemNuggetChicken>, 25);
 }
 
+mods.tconstruct.Smeltery.removeMelting(<minecraft:bucket>);
+
 // I think there's a bug in MineTweaker3 that's preventing the below from working as intended.
 ////recipes.removeShapeless(<minecraft:magma_cream>, [<minecraft:blaze_powder>, <primitivemobs:primitivemobs_PinkSlimeBall>]);
 ////recipes.removeShaped(<minecraft:sticky_piston>, [[<primitivemobs:primitivemobs_PinkSlimeBall>], [<minecraft:piston>]]);
