@@ -8,7 +8,7 @@ recipes.removeShapeless(<harvestcraft:freshwaterItem>);
 recipes.addShapeless(<Botany:misc:3> * 4, [<ore:dustSulfur>]);
 recipes.addShapeless(<xreliquary:condensed_potion:12>, [<minecraft:potion:8192> , <minecraft:potion:32>, <minecraft:nether_wart>, <xreliquary:condensed_potion:29>]);
 recipes.addShapeless(<xreliquary:condensed_potion>, [<xreliquary:condensed_potion:12>, <minecraft:gunpowder>]);
-recipes.addShapeless(<harvestcraft:freshwaterItem> * 4, [<minecraft:water_bucket>]);
+recipes.addShapeless(<harvestcraft:freshwaterItem>, [<minechem:minechemMolecule:1>, <minechem:minechemMolecule:1>]);
 
 <ore:paneGlass>.add(<TConstruct:GlassPane>);
 <ore:paneGlassColorless>.add(<TConstruct:GlassPane>);
