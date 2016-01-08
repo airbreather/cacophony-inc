@@ -18,11 +18,16 @@ copy cacophony_inc-%VERSION%.zip cacophony_inc_nojourneymap-%VERSION%.zip
 
 pushd server-skeleton
 7za x -r ..\cacophony_inc_nojourneymap-%VERSION%.zip
-del minecraft\mods\neiaddons-*.jar
-del minecraft\mods\neiintegration-*.jar
+move minecraft\config .
+move minecraft\hats .
+move minecraft\mods .
+move minecraft\scripts .
+rd /s /q minecraft
+del mods\neiaddons-*.jar
+del mods\neiintegration-*.jar
 
 7za a -r cacophony_inc_server-%VERSION%.zip *
-del /s /q minecraft
-rd /s /q minecraft
+del /s /q config hats mods scripts
+rd /s /q config hats mods scripts
 popd
 move server-skeleton\cacophony_inc_server-%VERSION%.zip .
