@@ -1,5 +1,5 @@
 @echo off
-set VERSION=1.0.2
+set VERSION=1.0.3
 
 cd %~dp0
 pushd data
