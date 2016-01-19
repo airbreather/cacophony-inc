@@ -1,1 +1,0 @@
-harvestcraft:eggsaladItem, 3
