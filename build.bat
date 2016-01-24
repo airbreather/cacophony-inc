@@ -25,6 +25,7 @@ move minecraft\scripts .
 rd /s /q minecraft
 del mods\neiaddons-*.jar
 del mods\neiintegration-*.jar
+del mods\betterrain-*.jar
 
 7za a -r cacophony_inc_server-%VERSION%.zip *
 del /s /q config hats mods scripts
