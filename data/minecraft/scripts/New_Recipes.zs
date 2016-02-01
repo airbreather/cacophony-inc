@@ -115,25 +115,25 @@ recipes.addShapeless(<harvestcraft:vinegarItem>, [<harvestcraft:potItem>, <ore:l
 <ore:listAllegg>.add(<fossil:eggSarcosuchus>);
 <ore:listAllegg>.add(<fossil:eggCeratosaurus>);
 
-recipes.removeShaped(<ArchimedesShips:marker>);
-recipes.addShaped(<ArchimedesShips:marker>, [[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>], [<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>], [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]]);
+recipes.removeShaped(<ArchimedesShipsPlus:marker>);
+recipes.addShaped(<ArchimedesShipsPlus:marker>, [[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>], [<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>], [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]]);
 
-recipes.removeShapeless(<ArchimedesShips:floater>);
-recipes.addShapeless(<ArchimedesShips:floater>, [<ore:logWood>, <ore:blockWoolWhite>]);
+recipes.removeShapeless(<ArchimedesShipsPlus:floater>);
+recipes.addShapeless(<ArchimedesShipsPlus:floater>, [<ore:logWood>, <ore:blockWoolWhite>]);
 
-recipes.removeShaped(<ArchimedesShips:gauge:0>);
-recipes.addShaped(<ArchimedesShips:gauge:0>, [[<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
-recipes.addShaped(<ArchimedesShips:gauge:0>, [[<ore:paneGlass>, <ore:ingotGold>, <ore:paneGlass>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+recipes.removeShaped(<ArchimedesShipsPlus:gauge:0>);
+recipes.addShaped(<ArchimedesShipsPlus:gauge:0>, [[<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<ArchimedesShipsPlus:gauge:0>, [[<ore:paneGlass>, <ore:ingotGold>, <ore:paneGlass>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 
-recipes.removeShaped(<ArchimedesShips:gauge:1>);
-recipes.addShaped(<ArchimedesShips:gauge:1>, [[<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:paneGlass>, <ore:ingotGold>, <ore:paneGlass>]]);
-recipes.addShaped(<ArchimedesShips:gauge:1>, [[<ore:paneGlass>, <ore:ingotGold>, <ore:paneGlass>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>]]);
+recipes.removeShaped(<ArchimedesShipsPlus:gauge:1>);
+recipes.addShaped(<ArchimedesShipsPlus:gauge:1>, [[<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:paneGlass>, <ore:ingotGold>, <ore:paneGlass>]]);
+recipes.addShaped(<ArchimedesShipsPlus:gauge:1>, [[<ore:paneGlass>, <ore:ingotGold>, <ore:paneGlass>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:paneGlass>, <ore:ingotIron>, <ore:paneGlass>]]);
 
-recipes.removeShaped(<ArchimedesShips:seat>);
-recipes.addShaped(<ArchimedesShips:seat>, [[<ore:blockCloth>, null, null], [<ore:blockCloth>, <ore:blockCloth>, null]]);
+recipes.removeShaped(<ArchimedesShipsPlus:seat>);
+recipes.addShaped(<ArchimedesShipsPlus:seat>, [[<ore:blockCloth>, null, null], [<ore:blockCloth>, <ore:blockCloth>, null]]);
 
-recipes.removeShaped(<ArchimedesShips:crate_wood> * 3);
-recipes.addShaped(<ArchimedesShips:crate_wood> * 3, [[null, <minecraft:leather>, null], [<minecraft:leather>, null, <minecraft:leather>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.removeShaped(<ArchimedesShipsPlus:crate_wood> * 3);
+recipes.addShaped(<ArchimedesShipsPlus:crate_wood> * 3, [[null, <minecraft:leather>, null], [<minecraft:leather>, null, <minecraft:leather>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
 <ore:pulpWood>.add(<ThermalExpansion:material:512>);
 
