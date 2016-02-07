@@ -2,6 +2,9 @@
 set VERSION=1.1.1
 
 cd %~dp0
+HQMFileConverter.exe data\minecraft\config\hqm\quests.xaml
+move data\minecraft\config\hqm\quests.xaml .
+
 pushd data
 if not exist minecraft\mods\journey*.jar (
 	popd
@@ -32,3 +35,5 @@ del /s /q config hats mods scripts
 rd /s /q config hats mods scripts
 popd
 move server-skeleton\cacophony_inc_server-%VERSION%.zip .
+move quests.xaml data\minecraft\config\hqm
+del data\minecraft\config\hqm\quests.hqm
