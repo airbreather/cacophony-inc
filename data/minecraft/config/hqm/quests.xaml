@@ -8435,7 +8435,7 @@
         </XamlItemQuestTask>
         <XamlMobQuestTask Description="A task where the player has to kill certain monsters." Name="Killing task" TaskType="KillMobs">
           <XamlMobQuestTask.Requirements>
-            <XamlMobRequirement Amount="1" IsExact="False" MobID="imc.WildSheep" MobName="New">
+            <XamlMobRequirement Amount="1" IsExact="False" MobID="imc.WildSheep" MobName="Wild Sheep">
               <XamlMobRequirement.Icon>
                 <XamlItemStack Damage="9" ItemId="headcrumbs:head" />
               </XamlMobRequirement.Icon>
