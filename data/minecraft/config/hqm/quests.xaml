@@ -10151,7 +10151,7 @@
         <x:Int32>1</x:Int32>
       </XamlQuest.RequiredQuestIds>
       <XamlQuest.Tasks>
-        <XamlItemQuestTask Description="To upgrade your Pickaxe, fully repair it using the Tool Forge, then put it back into the Tool Forge again with a mob head.  This will increase its mining level." Name="Consume task" TaskType="Consume">
+        <XamlItemQuestTask Description="To upgrade your Pickaxe, put it and a mob head into a Crafting Table, Crafting Station, Tool Station, or Tool Forge.  This will increase its mining level." Name="Consume task" TaskType="Consume">
           <XamlItemQuestTask.Requirements>
             <XamlItemRequirement Amount="1" PrecisionId="ORE_DICTIONARY" Type="Item">
               <XamlItemRequirement.ItemStack>
