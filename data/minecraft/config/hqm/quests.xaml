@@ -1767,7 +1767,7 @@
         <XamlItemStack ItemId="fossil:eggCultivatedDodo" Size="2" />
       </XamlRewardBag.Rewards>
     </XamlRewardBag>
-    <XamlRewardBag Id="250" Name="Cloose Your Starter" TierId="2">
+    <XamlRewardBag Id="250" Name="Choose Your Starter" TierId="2">
       <XamlRewardBag.Rewards>
         <XamlItemStack ItemId="MineFactoryReloaded:safarinet.singleuse" NBTBase64="H4sIAAAAAAAAAONiYGBkYMnITEllZAAAi94Q4QwAAAA=" Size="1" />
         <XamlItemStack ItemId="MineFactoryReloaded:safarinet.singleuse" NBTBase64="H4sIAAAAAAAAAONiYGBkYMnITEllZAAAi94Q4QwAAAA=" Size="1" />
