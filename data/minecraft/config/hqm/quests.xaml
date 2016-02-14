@@ -7444,12 +7444,12 @@
       <XamlQuest.Tasks>
         <XamlItemQuestTask Description="To cross-breed plants, place 2 Crop items in between the two plants you would like to breed, like this: [Wheat][X][Carrot].  When the plants spread to the cropped space, there is a chance that the plant will be a new variety." Name="Detection task" TaskType="Detection">
           <XamlItemQuestTask.Requirements>
-            <XamlItemRequirement Amount="1" PrecisionId="PRECISE" Type="Item">
+            <XamlItemRequirement Amount="1" PrecisionId="FUZZY" Type="Item">
               <XamlItemRequirement.ItemStack>
                 <XamlItemStack ItemId="harvestcraft:barleyseedItem" />
               </XamlItemRequirement.ItemStack>
             </XamlItemRequirement>
-            <XamlItemRequirement Amount="1" PrecisionId="PRECISE" Type="Item">
+            <XamlItemRequirement Amount="1" PrecisionId="FUZZY" Type="Item">
               <XamlItemRequirement.ItemStack>
                 <XamlItemStack ItemId="harvestcraft:ryeseedItem" />
               </XamlItemRequirement.ItemStack>
