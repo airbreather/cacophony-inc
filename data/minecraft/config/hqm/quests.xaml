@@ -8461,7 +8461,7 @@
         <x:Int32>14</x:Int32>
       </XamlQuest.RequiredQuestIds>
       <XamlQuest.Tasks>
-        <XamlMobQuestTask Description="A task where the player has to kill certain monsters." Name="Killing task" TaskType="KillMobs">
+        <XamlMobQuestTask Description="Create a Snow Golem by placing a Pumpkin on top of two Snow blocks.  If you don't have any snow around, perhaps a potion reward from an earlier quest may help." Name="Killing task" TaskType="KillMobs">
           <XamlMobQuestTask.Requirements>
             <XamlMobRequirement Amount="1" IsExact="False" MobID="SnowMan" MobName="Snow Golem Guard">
               <XamlMobRequirement.Icon>
