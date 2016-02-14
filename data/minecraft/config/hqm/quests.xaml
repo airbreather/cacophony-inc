@@ -10046,7 +10046,7 @@
       <XamlQuest.Tasks>
         <XamlMobQuestTask Description="Kill 5 Creepers." Name="Killing task" TaskType="KillMobs">
           <XamlMobQuestTask.Requirements>
-            <XamlMobRequirement Amount="5" IsExact="False" MobID="Creeper" MobName="New">
+            <XamlMobRequirement Amount="5" IsExact="False" MobID="Creeper" MobName="Creeper">
               <XamlMobRequirement.Icon>
                 <XamlItemStack Damage="4" ItemId="minecraft:skull" />
               </XamlMobRequirement.Icon>
@@ -10898,7 +10898,7 @@
       <XamlQuest.Tasks>
         <XamlMobQuestTask Description="A task where the player has to kill certain monsters." Name="Killing task" TaskType="KillMobs">
           <XamlMobQuestTask.Requirements>
-            <XamlMobRequirement Amount="1" IsExact="False" MobID="Enderman" MobName="New">
+            <XamlMobRequirement Amount="1" IsExact="False" MobID="Enderman" MobName="Enderman">
               <XamlMobRequirement.Icon>
                 <XamlItemStack Damage="2" ItemId="headcrumbs:head" />
               </XamlMobRequirement.Icon>
