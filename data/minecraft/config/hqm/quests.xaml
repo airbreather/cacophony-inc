@@ -13313,7 +13313,7 @@
                 <XamlItemStack ItemId="Thaumcraft:ItemThaumometer" />
               </XamlItemRequirement.ItemStack>
             </XamlItemRequirement>
-            <XamlItemRequirement Amount="1" PrecisionId="PRECISE" Type="Item">
+            <XamlItemRequirement Amount="1" PrecisionId="FUZZY" Type="Item">
               <XamlItemRequirement.ItemStack>
                 <XamlItemStack ItemId="Thaumcraft:WandCasting" NBTBase64="H4sIAAAAAAAAAONiYGBmYEksLE1kYOA8wszAWpJaVARjZ6bnZRZD2Cz5RSn5ECZHQWpRSmZJJpTLnJhaBGIxAABHsGCySwAAAA==" />
               </XamlItemRequirement.ItemStack>
@@ -13806,7 +13806,7 @@
       <XamlQuest.Tasks>
         <XamlItemQuestTask Description="ME power can be weird.  Luckily, using an Energy Acceptor can fix any communication gaps between your fancy power and Applied Energistics machines." Name="Detection task" TaskType="Detection">
           <XamlItemQuestTask.Requirements>
-            <XamlItemRequirement Amount="4" PrecisionId="PRECISE" Type="Item">
+            <XamlItemRequirement Amount="4" PrecisionId="FUZZY" Type="Item">
               <XamlItemRequirement.ItemStack>
                 <XamlItemStack ItemId="appliedenergistics2:tile.BlockEnergyCell" NBTBase64="H4sIAAAAAAAAAONiYGAAAHg/+U4EAAAA" />
               </XamlItemRequirement.ItemStack>
