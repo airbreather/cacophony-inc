@@ -6,21 +6,16 @@ weight=1
 embed_into_distance=0
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
-dimensions=2,1,1
+dimensions=1,1,1
 allowable_overhang=0
 max_leveling=2
 leveling_buffer=0
 preserve_water=0
 preserve_lava=0
 
-rule1=0,100,IInventory;BiblioCraft:Armor Stand;BiblioCraft:item.BiblioGlasses#1#1#0+harvestcraft:hardenedleatherchestItem#1#0#1+harvestcraft:hardenedleatherleggingsItem#1#0#2+MineFactoryReloaded:plastic.boots#1#0#3-1
-rule2=0,100,BiblioCraft:Armor Stand-5
+rule1=0,100,IInventory;ExtraUtilities:chestMini;harvestcraft:chocolatecaramelfudgeItem#2#0#0-0
 
 layer
 1
-endlayer
-
-layer
-2
 endlayer
 

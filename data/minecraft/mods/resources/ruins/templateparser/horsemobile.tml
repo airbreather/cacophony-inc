@@ -1,46 +1,43 @@
 
-# Created by Ruins mod version 14.7 Ingame Parser
+# Created by Ruins mod version 15.4 Ingame Parser
 # authoring Player: skidznet
 
 weight=1
 embed_into_distance=0
 acceptable_target_blocks=
 unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
-dimensions=3,5,5
+dimensions=3,3,4
 allowable_overhang=0
 max_leveling=2
 leveling_buffer=0
 preserve_water=0
 preserve_lava=0
 
-rule1=0,100,minecraft:fence-0
-rule2=0,100,ArchimedesShips:marker-2
-rule3=0,100,TConstruct:WoolSlab2-6
-rule4=0,100,ExtraUtilities:colorWoodPlanks-12
-rule5=0,100,minecraft:tripwire_hook-0
-rule6=0,100,headcrumbs:betterSkull-1
+rule1=0,100,ArchimedesShipsPlus:balloon-15
+rule2=0,100,chisel:marble_slab_top-0
+rule3=0,100,ArchimedesShipsPlus:marker-2
+rule4=0,100,minecraft:wooden_slab-1
+rule5=0,100,chisel:marble-0
+rule6=0,100,OpenBlocks:flag-3
+rule7=0,100,minecraft:tripwire_hook-1
+rule8=0,100,fossil:skullLantern-2
+rule9=0,100,minecraft:tripwire_hook-3
 
 layer
-0,0,0,0,0
-0,1,0,1,0
-0,0,0,0,0
-0,1,0,1,0
-0,0,0,0,0
+0,0,0,0
+0,1,2,1
+0,0,0,0
 endlayer
 
 layer
-0,0,0,0,0
-0,1,0,1,0
-5,4,3,2,0
-0,1,0,1,0
-0,0,0,0,0
+0,0,0,0
+6,5,4,3
+0,0,0,0
 endlayer
 
 layer
-0,0,0,0,0
-0,0,0,0,0
-0,0,0,6,0
-0,0,0,0,0
-0,0,0,0,0
+0,0,0,7
+0,0,0,8
+0,0,0,9
 endlayer
 

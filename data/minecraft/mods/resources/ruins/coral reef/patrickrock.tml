@@ -5,8 +5,8 @@
 biomesToSpawnIn=ocean,deep ocean,kelp forest,ocean oil field,oceanic abyss,coral reef
 weight=1
 embed_into_distance=3
-acceptable_target_blocks=
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+acceptable_target_blocks=water
+unacceptable_target_blocks=flowing_water,flowing_lava,lava
 dimensions=8,9,9
 allowable_overhang=0
 max_leveling=2
