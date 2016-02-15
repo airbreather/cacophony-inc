@@ -1,5 +1,5 @@
 @echo off
-set VERSION=1.1.1
+set VERSION=1.1.2
 
 cd %~dp0
 HQMFileConverter.exe data\minecraft\config\hqm\quests.xaml
