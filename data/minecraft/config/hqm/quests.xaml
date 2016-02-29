@@ -11722,9 +11722,9 @@
         <x:Int32>222</x:Int32>
       </XamlQuest.RequiredQuestIds>
       <XamlQuest.Tasks>
-        <XamlDeathQuestTask DeathCount="0" Description="A task where the player has to die a certain amount of times." Name="Death task" TaskType="Deaths" />
-        <XamlDeathQuestTask DeathCount="0" Description="A task where the player has to die a certain amount of times." Name="Death task" TaskType="Deaths" />
-        <XamlDeathQuestTask DeathCount="0" Description="A task where the player has to die a certain amount of times." Name="Death task" TaskType="Deaths" />
+        <XamlDeathQuestTask DeathCount="1" Description="A task where the player has to die a certain amount of times." Name="Death task" TaskType="Deaths" />
+        <XamlDeathQuestTask DeathCount="5" Description="A task where the player has to die a certain amount of times." Name="Death task" TaskType="Deaths" />
+        <XamlDeathQuestTask DeathCount="10" Description="A task where the player has to die a certain amount of times." Name="Death task" TaskType="Deaths" />
       </XamlQuest.Tasks>
     </XamlQuest>
     <XamlQuest Description="Ahh, have you met Buddy?  Great!  Time for some fun facts about Buddy!  1.  Buddy is a horse.  2. Buddy's favorite flower is the poppy.  3. The main ingredient in glue is horses like Buddy!  Oh, speaking of glue, that reminds me -- I have this model airplane project I'm working on, and I'm FRESH OUT of glue!  So, how convenient is it that you've got a horse right there?  I'll tell you how convenient: very convenient indeed." Id="227" Name="Cruel and Unusual" QuestSetId="0" TriggerType="ReverseTrigger" XPos="238" YPos="91">
