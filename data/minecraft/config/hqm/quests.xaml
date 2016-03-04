@@ -13473,7 +13473,7 @@
                 <XamlItemStack Damage="41" ItemId="appliedenergistics2:item.ItemMultiMaterial" />
               </XamlItemRequirement.ItemStack>
             </XamlItemRequirement>
-            <XamlItemRequirement Amount="1" PrecisionId="PRECISE" Type="Item">
+            <XamlItemRequirement Amount="1" PrecisionId="FUZZY" Type="Item">
               <XamlItemRequirement.ItemStack>
                 <XamlItemStack ItemId="appliedenergistics2:item.ToolWirelessTerminal" NBTBase64="H4sIAAAAAAAAAONiYGAAAHg/+U4EAAAA" />
               </XamlItemRequirement.ItemStack>
