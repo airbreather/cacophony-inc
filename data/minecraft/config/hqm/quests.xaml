@@ -13884,7 +13884,7 @@
             </XamlItemRequirement>
           </XamlItemQuestTask.Requirements>
         </XamlItemQuestTask>
-        <XamlItemQuestTask Description="A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids." Name="Consume task" TaskType="Consume">
+        <XamlItemQuestTask Description="These need to be empty in order to be accepted.  If it still won't accept them, try putting them into a ME Drive and then taking them right back out again." Name="Consume task" TaskType="Consume">
           <XamlItemQuestTask.Requirements>
             <XamlItemRequirement Amount="6" PrecisionId="PRECISE" Type="Item">
               <XamlItemRequirement.ItemStack>
