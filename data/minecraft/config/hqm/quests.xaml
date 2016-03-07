@@ -14888,7 +14888,7 @@
         <x:Int32>163</x:Int32>
       </XamlQuest.RequiredQuestIds>
       <XamlQuest.Tasks>
-        <XamlItemQuestTask Description="A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids." Name="Consume task" TaskType="Consume">
+        <XamlItemQuestTask Description="If you're having trouble getting Bacon to appear, try using a tool or weapon with the &quot;Tasty&quot; modifier." Name="Consume task" TaskType="Consume">
           <XamlItemQuestTask.Requirements>
             <XamlItemRequirement Amount="1" PrecisionId="PRECISE" Type="Item">
               <XamlItemRequirement.ItemStack>
